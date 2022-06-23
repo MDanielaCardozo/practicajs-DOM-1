@@ -11,16 +11,16 @@ function generarNumeroAleatorio(){
 }
 
 function consultarNumero(){
-  console.log('desde la funcion consultarNumero')
+  console.log('desde la funcion consultarNumero');
   //buscar el valor del input
   let numeroIngresado = parseInt(document.getElementById('numeroIngresado').value); //solo guardo el valor no el objeto entero
-  console.log(numeroIngresado)
-  console.log(numeroAleatorio)
+  console.log(numeroIngresado);
+  console.log(numeroAleatorio);
   if(numeroIngresado === numeroAleatorio){
     console.log('Ganaste!')
-  }  else if ( numeroIngresado > numeroAleatorio){
-    console.log('El numero magico es menor al ingresado')
+  }  else if ( numeroIngresado > numeroAleatorio ){
+    console.log('El numero magico es menor al ingresado');
   } else {
-    console.log('El numero magico es mayor al ingresado')
+    console.log('El numero magico es mayor al ingresado');
   }
 }
